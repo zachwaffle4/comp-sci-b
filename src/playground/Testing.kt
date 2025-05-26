@@ -1,10 +1,13 @@
 package playground
 
-fun main() {
-    val list = listOf(1,2,3,4,5,6,7,8,9,10)
-    val list2 = list.map { addOne(it) }
-}
+import java.util.Random
+import kotlin.math.exp
+import kotlin.math.ln
+import kotlin.math.log
+import kotlin.streams.toList
 
-fun addOne(i: Int): Int {
-    return i + 1
+fun main() {
+    val fruits = listOf("apple", "banana", "raspberry", "kiwi", "orange")
+
+    val lens = fruits.map { it.length }
 }

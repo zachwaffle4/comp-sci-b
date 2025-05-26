@@ -1,18 +1,11 @@
 import playground.Animal;
+import playground.TestingKt;
 
-import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 void main() {
-    System.out.println("wow im not in a class omg");
-    Integer[] ints = {1,2,3,4,5,6,7,8,9,10};
+    List<String> list = List.of("apple", "banana", "raspberry", "kiwi", "orange");
 
-    List<Integer> list = Arrays.asList(ints);
-    List<Integer> list2 = list.stream().map(this::addOne).toList();
 
-    System.out.println(list2);
-}
-
-int addOne(int i) {
-    return i + 1;
 }
